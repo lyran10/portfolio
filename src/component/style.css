@@ -4,8 +4,7 @@
   background-color: #020202;
   position: fixed;
   z-index: 20;
-  width: 90%;
-  
+  min-width: 100%;
 }
 
 .navBrand{
@@ -23,7 +22,6 @@
 
 .miniMenu{
   position: fixed;
-  z-index: 3;
   top: 70px;
   transition: 0.4s;
   z-index: 21;
@@ -58,7 +56,7 @@
 .home{
   position: relative;
   background-color: #D2042D;
-  min-height: 550px;
+  min-height: 520px;
 }
 
 .home::after{
@@ -206,7 +204,6 @@ z-index: 1;
 
     .aboutMe{
     margin-top: 200px;
-    width: 100%;
     padding-right: 50px;
   }
 
@@ -233,7 +230,6 @@ z-index: 1;
 
   .aboutMe{
     margin-top: 200px;
-    width: 100%;
     padding-right: 50px;
   }
   .about{

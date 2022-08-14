@@ -11,7 +11,7 @@ export const Footer = () => {
   
   return(
         <section id="contact">
-          <div className="footer" style={{width:"100%",minHeight:"400px",backgroundColor:"#D2042D"}}>
+          <div className="footer" style={{minHeight:"400px",backgroundColor:"#D2042D"}}>
             <div className="d-flex justify-content-center align-items-center flex-column gap-3">
               <h2 style={{marginTop:"150px"}} className="name text-light fw-bolder">Liran Ramekar</h2>
               <h5 className="contact text-light fw-bolder">+972 53-665-2453 | liranramekar7@gmail.com</h5>
