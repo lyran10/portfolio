@@ -6,7 +6,7 @@ import {FaLaptopCode,FaDatabase,FaCogs,FaIdCard} from "react-icons/fa"
 export const Skills = () => {
   return(
         <section id="skills">
-          <div className="container3 d-flex justify-content-center align-items-center" style={{minWidth:"110%",minHeight:"600px"}}>
+          <div className="container3 d-flex justify-content-center align-items-center" style={{width:"100%",minHeight:"600px"}}>
           <div className="skills" style={{marginTop:"100px"}}>
             <h2 className="skillsHead border-bottom p-2 text-light">SKILLS</h2>
 

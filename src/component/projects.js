@@ -5,7 +5,7 @@ import {Footer} from "./footer.js"
 export const Projects = () => {
   return(
       <section id="projects">
-        <div className="container5" style={{minWidth:"110%",minHeight:"700px"}}>
+        <div className="container5" style={{width:"100%",minHeight:"700px"}}>
             <div className="Projects d-flex align-items-center justify-content-center flex-column" style={{minWidth:"100vw",minHeight:"600px"}}>
             <div className="projectsHead" style={{minWidth:"50%"}}>
                   <h2 className="border-bottom p-2">PROJECTS</h2>
