@@ -1,6 +1,7 @@
 .container4{
   position: relative;
   background-color: #F9F9F9;
+  min-height: 600px;
 }
 
 .container4::after{
@@ -141,7 +142,9 @@
     margin-top: 150px;
   }
   .container4::after{
-    top:85%;
+    top: 85%;
+    left: -6px;
+    width: 110%;
   }
   .educationHead{
     margin-top: 150px;
@@ -208,10 +211,44 @@
   .educationHead{
     margin-top: 150px;
   }
+  .container4::after{
+    top: 85%;
+    left: -6px;
+    width: 110%;
+  }
  }
  
 @media all and (max-width: 480px) { 
   .educationHead{
     margin-top: 60px;
+  }
+  .educationHead{
+    margin-top: 150px;
+  }
+
+  .container4{
+    min-height: 700px;
+  }
+
+  .container4::after{
+    top: 85%;
+    left: -6px;
+    width: 110%;
+  }
+}
+
+@media all and (max-width: 390px){
+  .educationHead{
+    margin-top: 200px;
+  }
+
+  .container4{
+    min-height: 700px;
+  }
+
+  .container4::after{
+    top: 85%;
+    left: -6px;
+    width: 110%;
   }
 }

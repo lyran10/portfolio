@@ -195,16 +195,25 @@ z-index: 1;
 
 .about{
   min-height: 850px;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .about::after{
-  top: 90%;
+  top: 89%;
+  left: -10px;
 }
 
     .aboutMe{
-    margin-top: 170px;
+    margin-top: 200px;
+    width: 100%;
+    padding-right: 50px;
   }
 
+
+.image{
+    margin-top: 0px;
+  }
   
 }
 
@@ -224,19 +233,40 @@ z-index: 1;
 
   .aboutMe{
     margin-top: 200px;
+    width: 100%;
+    padding-right: 50px;
   }
   .about{
     min-height: 900px;
+    flex-direction: column;
+    gap: 5px;
   }
   
   .about::after{
     top: 95%;
   }
+
+  .image{
+    margin-top: 0px;
+    height: 300px;
+    width: 100%;
+  }
  }
 
  @media all and (max-width: 380px){
+.about{
+  flex-direction: column;
+  gap: 5px;
+}
+
   .aboutMe{
-    margin-top: 250px;
+    margin-top: 200px;
+  }
+
+  .image{
+    margin-top: 0px;
+    height: 300px;
+    width: 100%;
   }
 
  }
