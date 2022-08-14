@@ -14,7 +14,7 @@ export const Home = () => {
                 <span className="header fw-bolder text-light p-1">I AM</span>
                 <span className="header fw-bolder text-light border-bottom p-1">LIRAN RAMEKAR</span>
                 <span className="mini-header text-light p-2" style={{wordSpacing:"3px"}}>Graduated in Bachelors of Business Administraion.</span>
-              <a href={logo} download="CV"><button class="btn mt-3 btn1">Download CV</button></a>
+              <a href={logo} download="CV"><button className="btn mt-3 btn1">Download CV</button></a>
           </div>
         </div>
         <About/>
