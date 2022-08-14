@@ -61,7 +61,6 @@
 
 .home::after{
 content: ""; display: block;
-width:100%;
 height: 150px;
 background-color: #D2042D;
 transform: skew(0deg,-5deg);
@@ -113,7 +112,6 @@ z-index: 1;
 
 .about::after{
 content: ""; display: block;
-width:100%;
 height: 150px;
 background-color: #F9F9F9;
 transform: skew(5deg,5deg);
@@ -205,6 +203,7 @@ z-index: 1;
     .aboutMe{
     margin-top: 200px;
     padding-right: 50px;
+    width: 90%;
   }
 
 
@@ -231,6 +230,7 @@ z-index: 1;
   .aboutMe{
     margin-top: 200px;
     padding-right: 50px;
+    width: 80%;
   }
   .about{
     min-height: 900px;
@@ -257,6 +257,7 @@ z-index: 1;
 
   .aboutMe{
     margin-top: 200px;
+    width: 70%;
   }
 
   .image{

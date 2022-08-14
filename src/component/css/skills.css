@@ -5,7 +5,6 @@
 
 .container3::after{
   content: ""; display: block;
-  width:100%;
   height: 150px;
   background-color: #D2042D;
   transform: skew(0deg,-5deg);
