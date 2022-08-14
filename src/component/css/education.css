@@ -1,0 +1,217 @@
+.container4{
+  position: relative;
+  background-color: #F9F9F9;
+}
+
+.container4::after{
+  content: ""; display: block;
+  width:100%;
+  height: 150px;
+  background-color: #F9F9F9;
+  transform: skew(5deg,5deg);
+  position: absolute; top: 75%; left: -10px;
+  transform-origin: left;
+  z-index: 1;
+}
+
+.educationHead{
+  margin-top: 200px;
+}
+
+.h2{
+  position: relative;
+  z-index: 11;
+}
+
+.educationList{
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position:relative;
+  color: white;
+  z-index: 13;
+}
+
+.educationList ul{
+  list-style: none;
+}
+
+.educationList ul li{
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: black;
+  border: #D2042D solid 2px;
+}
+
+.educationList ul li:last-child{
+  margin-bottom: 0px;
+}
+
+.content h4{
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.content span{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.content .date{
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+
+
+
+
+
+@media all and (min-width: 1024px){ 
+
+  .educationHead{
+    margin-top: 150px;
+  }
+
+  .educationList::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: grey;
+  }
+
+  .educationList ul li{
+    width: 50%;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .educationList ul li:nth-child(odd){
+    float: left;
+    clear: right;
+    margin-right: 300px;
+    transform: translateX(-30px);
+    border-radius: 20px 0 20px 20px;
+  }
+
+  .educationList ul li:nth-child(even){
+    float: right;
+    clear: left;
+    border-radius: 0 20px 20px 20px;
+  }
+
+  .educationList ul li::after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #D2042D;
+    border-radius: 50%;
+    top: 0;
+  }
+
+  .educationList ul li:nth-child(odd)::after{
+    right: -26px;
+    top: -5px;
+  }
+
+  .educationList ul li:nth-child(even)::after{
+    left: -28px;
+    top: -5px;
+  }
+
+  .educationList ul li:hover::after{
+    background-color: #1e1f22;
+  }
+}
+ 
+@media all and (min-width: 768px) and (max-width: 1024px){ 
+  .educationHead{
+    margin-top: 150px;
+  }
+  .container4::after{
+    top:85%;
+  }
+  .educationHead{
+    margin-top: 150px;
+  }
+
+  .educationList::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: grey;
+  }
+
+  .educationList ul li{
+    width: 50%;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .educationList ul li:nth-child(odd){
+    float: left;
+    clear: right;
+    margin-right: 300px;
+    transform: translateX(-30px);
+    border-radius: 20px 0 20px 20px;
+  }
+
+  .educationList ul li:nth-child(even){
+    float: right;
+    clear: left;
+    border-radius: 0 20px 20px 20px;
+  }
+
+  .educationList ul li::after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #D2042D;
+    border-radius: 50%;
+    top: 0;
+  }
+
+  .educationList ul li:nth-child(odd)::after{
+    right: -26px;
+    top: -5px;
+  }
+
+  .educationList ul li:nth-child(even)::after{
+    left: -28px;
+    top: -5px;
+  }
+
+  .educationList ul li:hover::after{
+    background-color: #1e1f22;
+  }
+
+}
+ 
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+  .educationHead{
+    margin-top: 150px;
+  }
+ }
+ 
+@media all and (max-width: 480px) { 
+  .educationHead{
+    margin-top: 60px;
+  }
+}

@@ -1,0 +1,238 @@
+
+/* Nav Bar */
+.navbar{
+  background-color: #020202;
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  
+}
+
+.navBrand{
+  font-family: 'Dancing Script', 'cursive';
+}
+
+.navLink:hover{
+    color: #D2042D;
+}
+
+.hamIcons{
+  display: none;
+  cursor: pointer;
+}
+
+.miniMenu{
+  position: fixed;
+  z-index: 3;
+  top: 70px;
+  transition: 0.4s;
+  z-index: 21;
+}
+
+.miniNavLink{
+  background-color: black;
+  text-decoration: none;
+  color:black;
+  color: white;
+}
+
+.miniNavLink:hover{
+  border-bottom: solid 1px white;
+  color: #D2042D;
+}
+
+.nav:hover:nth-last-child(){
+  border-bottom: black;
+}
+
+
+.translate{
+  transform: translateX(5000px);
+}
+
+.translateback{
+  transform: translateX(0px);
+}
+
+/* Home section */
+.home{
+  position: relative;
+  background-color: #D2042D;
+  min-height: 550px;
+}
+
+.home::after{
+content: ""; display: block;
+width:100%;
+height: 150px;
+background-color: #D2042D;
+transform: skew(0deg,-5deg);
+position: absolute; top: 100%; left: 0px;
+transform-origin: left;
+z-index: 1;
+}
+
+.header{
+  letter-spacing: 3px;
+  font-size: 3.5rem;
+}
+
+.container{
+  min-width: 50%;
+}
+
+.btn1 {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.btn1:hover {
+  background-color: black;
+  box-shadow: 0px 15px 20px rgba(13, 13, 13, 0.925);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+/* About me section */
+.about{
+  position: relative;
+  background-color: #F9F9F9;
+  min-height: 600px;
+}
+
+.about::after{
+content: ""; display: block;
+width:100%;
+height: 150px;
+background-color: #F9F9F9;
+transform: skew(5deg,5deg);
+position: absolute; top: 75%; left: -10px;
+transform-origin: left;
+z-index: 1;
+}
+
+.aboutMe{
+  width: 50%;
+  margin-top: 100px;
+}
+
+.aboutHead{
+  position: relative;
+  z-index: 10;
+}
+.aboutPara{
+  position: relative;
+  z-index: 10;
+  word-spacing: 5px;
+  font-size: 20px;
+}
+
+.image{
+  position: relative;
+  z-index: 10;
+  width : 300px;
+  height : 500px;
+  margin-top: 100px;
+  box-shadow: 0px 15px 20px rgba(13, 13, 13, 0.925);
+  border-radius: 5px;
+}
+
+/* media query */
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+ 
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+  .navLink{
+    display: none;
+  }
+
+  .hamIcons{
+    display: block;
+  }
+
+  .home{
+    min-height: 520px;
+  }
+
+  .aboutMe{
+    margin-top: 150px;
+  }
+
+  .image{
+    margin-top: 120px;
+  }
+}
+ 
+@media all and (min-width: 480px) and (max-width: 768px) { 
+  .navLink{
+    display: none;
+  }
+
+  .hamIcons{
+    display: block;
+  }
+
+.home{
+  min-height: 520px;
+}
+
+.about{
+  min-height: 850px;
+}
+
+.about::after{
+  top: 90%;
+}
+
+    .aboutMe{
+    margin-top: 170px;
+  }
+
+  
+}
+
+ 
+@media all and (max-width: 480px) {
+  .navLink{
+    display: none;
+  }
+
+  .hamIcons{
+    display: block;
+  }
+
+  .mini-header{
+    font-size: 10px;
+  }
+
+  .aboutMe{
+    margin-top: 200px;
+  }
+  .about{
+    min-height: 900px;
+  }
+  
+  .about::after{
+    top: 95%;
+  }
+ }
+
+ @media all and (max-width: 380px){
+  .aboutMe{
+    margin-top: 250px;
+  }
+
+ }

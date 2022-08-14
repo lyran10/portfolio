@@ -1,0 +1,28 @@
+.experience{
+  position: relative;
+  background-color: #D2042D;
+}
+
+.experience::after{
+content: ""; display: block;
+width:100%;
+height: 150px;
+background-color: #D2042D;
+transform: skew(0deg,-5deg);
+position: absolute; top: 100%; left: 0px;
+transform-origin: left;
+z-index: 1;
+}
+
+.expcard{
+  box-shadow: 0px 15px 20px rgba(13, 13, 13, 0.925);
+}
+
+.resStyle{
+  word-spacing: 2px;
+  font-size: 18px;
+}
+
+.experienceHead{
+  margin-top: 100px;
+}
