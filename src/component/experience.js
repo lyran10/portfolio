@@ -6,7 +6,7 @@ import {AiOutlineArrowRight} from "react-icons/ai"
 export const Experience = () => {
   return(
         <section id="experience">
-          <div className="experience text-light d-flex align-items-center justify-content-center flex-column" style={{minWidth:"100vw",minHeight:"600px"}}>
+          <div className="experience text-light d-flex align-items-center justify-content-center flex-column" style={{minWidth:"110%",minHeight:"600px"}}>
           <div className="experienceHead" style={{minWidth:"50%"}}>
           <h2 className="border-bottom p-2">EXPERIENCE</h2>
           </div>

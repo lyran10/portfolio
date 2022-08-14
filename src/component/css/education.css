@@ -2,6 +2,7 @@
   position: relative;
   background-color: #F9F9F9;
   min-height: 600px;
+  min-width: 110%;
 }
 
 .container4::after{
@@ -141,11 +142,12 @@
   .educationHead{
     margin-top: 150px;
   }
-  .container4::after{
+  /* .container4::after{
     top: 85%;
-    left: -6px;
-    width: 110%;
-  }
+    width: 100.5%;
+    left: -2px;
+    transform: skew(5deg,5deg);
+  } */
   .educationHead{
     margin-top: 150px;
   }
@@ -204,6 +206,13 @@
     background-color: #1e1f22;
   }
 
+  .container4::after{
+    top: 85%;
+    width: 100.5%;
+    left: -2px;
+    transform: skew(1deg,5deg);
+  }
+
 }
  
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -213,8 +222,9 @@
   }
   .container4::after{
     top: 85%;
-    left: -6px;
-    width: 110%;
+    width: 100.5%;
+    left: -2px;
+    transform: skew(1deg,5deg);
   }
  }
  
@@ -233,7 +243,7 @@
   .container4::after{
     top: 85%;
     left: -6px;
-    width: 110%;
+    width: 101.4%;
   }
 }
 
@@ -248,7 +258,7 @@
 
   .container4::after{
     top: 85%;
-    left: -6px;
-    width: 110%;
+    left: -6.5px;
+    width: 101.4%;
   }
 }

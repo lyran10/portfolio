@@ -24,7 +24,7 @@ const  handleClick = () => {
             <Nav.Link className='navLink' href="#experience">EXPERIENCE</Nav.Link>
             <Nav.Link className='navLink' href="#projects">PROJECTS</Nav.Link>
             <Nav.Link className='navLink' href="#contact">CONTACT</Nav.Link>
-            <GiHamburgerMenu onClick={handleClick} className='hamIcons' size={30} style={{color:"white",marginTop:"7px"}}/>
+            <GiHamburgerMenu onClick={handleClick} className='hamIcons' size={30} style={{color:"white"}}/>
           </Nav>
         </Container>
       </Navbar>
