@@ -7,10 +7,10 @@ export const Education = () => {
   return(
         <section id="education">
           <div className="container4 d-flex align-items-center justify-content-center flex-column">
-            <div className="educationHead" style={{minWidth:"50%"}}>
-          <h2 className="border-bottom p-2">EDUCATION</h2>
+            <div className="educationHead" style={{width:"95%"}}>
+          <h2 className="border-bottom ">EDUCATION</h2>
           </div>
-          <div className="container education d-flex justify-content-center align-items-center mt-3">
+          <div className="container education d-flex justify-content-center align-items-center">
               <div className="educationList">
                 <ul>
                   <li>

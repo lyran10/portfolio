@@ -8,7 +8,7 @@ export const Home = () => {
   return(
     <section id="home">
        <NavBar/>
-        <div className="home d-flex justify-content-center flex-column align-items-center position-relative" style={{}}>
+        <div className="home d-flex justify-content-center flex-column align-items-center position-relative">
         
           <div className="container d-flex justify-content-center flex-column" style={{marginTop:"100px"}}>
                 <span className="header fw-bolder text-light p-1">I AM</span>

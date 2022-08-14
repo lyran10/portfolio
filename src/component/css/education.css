@@ -4,7 +4,7 @@
   min-height: 600px;
 }
 
-.container4::after{
+/* .container4::after{
   content: ""; display: block;
   height: 150px;
   background-color: #F9F9F9;
@@ -12,15 +12,24 @@
   position: absolute; top: 75%; left: -10px;
   transform-origin: left;
   z-index: 1;
-}
+} */
 
-.educationHead{
+/* .educationHead{
   margin-top: 200px;
-}
+} */
 
 .h2{
   position: relative;
   z-index: 11;
+}
+
+.education{
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.educationHead{
+  margin-top: 100px;
 }
 
 .educationList{
@@ -76,10 +85,6 @@
 
 
 @media all and (min-width: 1024px){ 
-
-  .educationHead{
-    margin-top: 150px;
-  }
 
   .educationList::before{
     content: "";
@@ -137,18 +142,15 @@
 }
  
 @media all and (min-width: 768px) and (max-width: 1024px){ 
-  .educationHead{
-    margin-top: 150px;
-  }
   /* .container4::after{
     top: 85%;
     width: 100.5%;
     left: -2px;
     transform: skew(5deg,5deg);
   } */
-  .educationHead{
+  /* .educationHead{
     margin-top: 150px;
-  }
+  } */
 
   .educationList::before{
     content: "";
@@ -204,32 +206,32 @@
     background-color: #1e1f22;
   }
 
-  .container4::after{
+  /* .container4::after{
     top: 85%;
     width: 100.5%;
     left: -2px;
     transform: skew(1deg,5deg);
-  }
+  } */
 
 }
  
 @media all and (min-width: 480px) and (max-width: 768px) {
 
-  .educationHead{
+  /* .educationHead{
     margin-top: 150px;
-  }
-  .container4::after{
+  } */
+  /* .container4::after{
     top: 85%;
     width: 100.5%;
     left: -2px;
     transform: skew(1deg,5deg);
-  }
+  } */
  }
  
 @media all and (max-width: 480px) { 
-  .educationHead{
+  /* .educationHead{
     margin-top: 60px;
-  }
+  } */
   .educationHead{
     margin-top: 150px;
   }
@@ -238,25 +240,25 @@
     min-height: 700px;
   }
 
-  .container4::after{
+  /* .container4::after{
     top: 85%;
     left: -6px;
     width: 101.4%;
-  }
+  } */
 }
 
 @media all and (max-width: 390px){
-  .educationHead{
+  /* .educationHead{
     margin-top: 200px;
-  }
+  } */
 
   .container4{
     min-height: 700px;
   }
 
-  .container4::after{
+  /* .container4::after{
     top: 85%;
     left: -6.5px;
     width: 101.4%;
-  }
+  } */
 }

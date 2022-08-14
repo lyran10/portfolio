@@ -7,10 +7,10 @@ export const Experience = () => {
   return(
         <section id="experience">
           <div className="experience text-light d-flex align-items-center justify-content-center flex-column" style={{minHeight:"600px"}}>
-          <div className="experienceHead" style={{minWidth:"50%"}}>
+          <div className="experienceHead" style={{width:"90%"}}>
           <h2 className="border-bottom p-2">EXPERIENCE</h2>
           </div>
-          <div className="card expcard mt-3" style={{minWidth:"50%",backgroundColor:"#D2042D",padding:"20px"}}>
+          <div className="card expcard mt-3" style={{width:"80%",backgroundColor:"#D2042D",padding:"20px"}}>
               <h4 className="pb-3 border-bottom">Gallagher Service Center LLP, Pune, India (2017 - 2021)</h4>
               <h5 className="card-title border-bottom pb-3">Designation - Process Analyst</h5>
               <div className="card-body ps-5 pe-5 d-flex flex-column">

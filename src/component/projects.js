@@ -7,7 +7,7 @@ export const Projects = () => {
       <section id="projects">
         <div className="container5" style={{minHeight:"700px"}}>
             <div className="Projects d-flex align-items-center justify-content-center flex-column" style={{minWidth:"100vw",minHeight:"600px"}}>
-            <div className="projectsHead" style={{minWidth:"50%"}}>
+            <div className="projectsHead" style={{width:"90%"}}>
                   <h2 className="border-bottom p-2">PROJECTS</h2>
             </div>
             <div className="cards d-flex gap-5 flex-wrap justify-content-center p-3 mt-2" >

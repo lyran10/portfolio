@@ -3,7 +3,7 @@
   background-color: #D2042D;
 }
 
-.experience::after{
+/* .experience::after{
 content: ""; display: block;
 height: 150px;
 background-color: #D2042D;
@@ -11,10 +11,12 @@ transform: skew(0deg,-5deg);
 position: absolute; top: 100%; left: 0px;
 transform-origin: left;
 z-index: 1;
-}
+} */
 
 .expcard{
   box-shadow: 0px 15px 20px rgba(13, 13, 13, 0.925);
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .resStyle{
