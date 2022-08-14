@@ -3,16 +3,6 @@
   background-color: #F9F9F9;
 }
 
-.container5::after{
-content: ""; display: block;
-height: 150px;
-background-color: #F9F9F9;
-transform: skew(5deg,5deg);
-position: absolute; top: 80%; left: -10px;
-transform-origin: left;
-z-index: 1;
-}
-
 .wordSpace{
   word-spacing: 3px;
 }

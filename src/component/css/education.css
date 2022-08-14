@@ -4,20 +4,6 @@
   min-height: 600px;
 }
 
-/* .container4::after{
-  content: ""; display: block;
-  height: 150px;
-  background-color: #F9F9F9;
-  transform: skew(5deg,5deg);
-  position: absolute; top: 75%; left: -10px;
-  transform-origin: left;
-  z-index: 1;
-} */
-
-/* .educationHead{
-  margin-top: 200px;
-} */
-
 .h2{
   position: relative;
   z-index: 11;
@@ -44,7 +30,9 @@
 
 .educationList ul{
   list-style: none;
+  padding-left: 0px;
 }
+
 
 .educationList ul li{
   padding: 20px;
@@ -113,6 +101,7 @@
   .educationList ul li:nth-child(even){
     float: right;
     clear: left;
+    transform: translateX(30px);
     border-radius: 0 20px 20px 20px;
   }
 
@@ -127,12 +116,12 @@
   }
 
   .educationList ul li:nth-child(odd)::after{
-    right: -26px;
+    right: -42px;
     top: -5px;
   }
 
   .educationList ul li:nth-child(even)::after{
-    left: -28px;
+    left: -42px;
     top: -5px;
   }
 
@@ -142,15 +131,6 @@
 }
  
 @media all and (min-width: 768px) and (max-width: 1024px){ 
-  /* .container4::after{
-    top: 85%;
-    width: 100.5%;
-    left: -2px;
-    transform: skew(5deg,5deg);
-  } */
-  /* .educationHead{
-    margin-top: 150px;
-  } */
 
   .educationList::before{
     content: "";
@@ -179,6 +159,7 @@
   .educationList ul li:nth-child(even){
     float: right;
     clear: left;
+    transform: translateX(30px);
     border-radius: 0 20px 20px 20px;
   }
 
@@ -193,12 +174,12 @@
   }
 
   .educationList ul li:nth-child(odd)::after{
-    right: -26px;
+    right: -42px;
     top: -5px;
   }
 
   .educationList ul li:nth-child(even)::after{
-    left: -28px;
+    left: -42px;
     top: -5px;
   }
 
@@ -232,13 +213,6 @@
   /* .educationHead{
     margin-top: 60px;
   } */
-  .educationHead{
-    margin-top: 150px;
-  }
-
-  .container4{
-    min-height: 700px;
-  }
 
   /* .container4::after{
     top: 85%;
@@ -251,10 +225,6 @@
   /* .educationHead{
     margin-top: 200px;
   } */
-
-  .container4{
-    min-height: 700px;
-  }
 
   /* .container4::after{
     top: 85%;

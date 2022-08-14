@@ -59,19 +59,9 @@
 
 /* Home section */
 .home{
-  position: relative;
   background-color: #D2042D;
   min-height: 700px;
-}
-
-.home::after{
-content: ""; display: block;
-height: 150px;
-background-color: #D2042D;
-transform: skew(0deg,-5deg);
-position: absolute; top: 100%; left: 0px;
-transform-origin: left;
-z-index: 1;
+  
 }
 
 .header{
@@ -289,7 +279,7 @@ z-index: 1;
   .aboutMe{
     margin-bottom: 0px;
     margin-top: 100px;
-    width: 80%;
+    width: 90%;
     border-bottom: #D2042D solid 2px;
   }
 

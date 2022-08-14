@@ -3,16 +3,6 @@
   background-color: #D2042D;
 }
 
-.container3::after{
-  content: ""; display: block;
-  height: 150px;
-  background-color: #D2042D;
-  transform: skew(0deg,-5deg);
-  position: absolute; top: 100%; left: 0px;
-  transform-origin: left;
-  z-index: 1;
-}
-
 .extraDetails{
   margin-bottom: 50px;
 }
@@ -20,7 +10,7 @@
 .skills{
   position: relative;
   z-index: 10;
-  min-width: 100%;
+  width: 100%;
   padding: 20px;
   margin-top: 50px;
   margin-bottom: 100px;
