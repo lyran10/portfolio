@@ -6,8 +6,8 @@ import {FaLaptopCode,FaDatabase,FaCogs,FaIdCard} from "react-icons/fa"
 export const Skills = () => {
   return(
         <section id="skills">
-          <div className="container3 d-flex justify-content-center align-items-center" style={{}}>
-          <div className="skills" style={{}}>
+          <div className="container3 d-flex justify-content-center align-items-center">
+          <div className="skills m-auto">
             <h2 className="skillsHead border-bottom p-2 text-light">SKILLS</h2>
 
             <div className="container skillList d-flex flex-column gap-3">

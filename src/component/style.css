@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+
 }
 
 
@@ -61,7 +62,6 @@
 .home{
   background-color: #D2042D;
   min-height: 700px;
-  
 }
 
 .header{
@@ -270,7 +270,8 @@
   }
  }
 
- @media all and (max-width: 380px){
+ @media all and (max-width: 390px){
+
 .about{
   flex-direction: column;
   gap: 5px;
