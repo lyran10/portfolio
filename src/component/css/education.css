@@ -36,11 +36,11 @@
 
 .educationList ul li{
   padding: 20px;
-  background-color: white;
+  background-color: #D2042D;
   border-radius: 10px;
   margin-bottom: 20px;
-  color: black;
-  border: #D2042D solid 2px;
+  color: white;
+  border: black solid 2px;
 }
 
 .educationList ul li:last-child{

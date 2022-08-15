@@ -23,7 +23,7 @@ export const Footer = () => {
 
                  <a href="https://www.linkedin.com/in/liran-ramekar-398163217/" target="_blank"><FaLinkedinIn className="icon" onMouseLeave={() => setlink("white")} onMouseEnter={() => setlink("black")} style={{color : link}} size={20}/></a>
 
-                  <a href="https://github.com/" target="_blank"><FaGithub className="icon" onMouseLeave={() => setgit("white")} onMouseEnter={() => setgit("black")} style={{color : git}} size={20}/></a>
+                  <a href="https://github.com/lyran10" target="_blank"><FaGithub className="icon" onMouseLeave={() => setgit("white")} onMouseEnter={() => setgit("black")} style={{color : git}} size={20}/></a>
               </div>
           </div>
         </section>
