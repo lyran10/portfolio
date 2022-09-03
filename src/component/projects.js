@@ -33,6 +33,16 @@ export const Projects = () => {
               </div>
             </div>
 
+            <div className="card procard borderLeft borderTop" style={{width: "18rem"}}>
+              <div className="card-body d-flex flex-column gap-3">
+                <h5 className="texthead card-title">Crypto Currency Tracker Application</h5>
+                <span className="text card-text wordSpace">In this app a user can get all the information about his favourite crypto currency and can also keep a track on it by storing it in the watch list. Created using React, Bootstrap, CSS, Axios, Postgresql, Node.js, Knex, Media Query. Also used JWT tokens and cookies for authorization.</span>
+                <div style={{width:"100%"}} className="weatherBtn">
+                <a href="https://crypto-traker.herokuapp.com/" target="_blank"><button style={{width:"100%",border:"solid 2px #D2042D"}} className="btn button text-dark">Trial</button></a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
